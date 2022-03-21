@@ -1,0 +1,251 @@
+<html>
+<head>
+<title>News</title>
+</head>
+<html lang="en">
+<head>
+<title>Nico Rosberg</title>
+  <link rel="icon" type="image/x-icon" href="mercedes-8-202855.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="recent-news-boxes.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  float: center;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+
+}
+.hero-image {
+  background-image: url("DSCF7488_1024x1024.jpg");
+  background-color: #cccccc;
+  height: 512px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Mercedes AMG Petronas Formula One Team</h1>
+</div>
+</header>
+
+<section class="recentNews">
+  <nav>
+    <ul>
+	<h1>Menu</h1>
+	<li><a href="home.html">Home</a></li>
+	<h1>Drivers</h1>
+      <li><a href="lhamilton.html">Lewis Hamilton</a></li>
+    
+   <li><a href="vbottas.html">Valterri Bottas</a></li>
+	  <h1>Media</h1>
+	  <li><a href="#">News</a></li>
+			  	  <li><a href="wallpaper.html">Wallpapers by Wallpaperbat ©</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2 class="news-title">Recent News</h2>
+    <div class="row">
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="frontrowstart.html"><img alt="News Entry" src="16371597068305.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>December</span><strong>12</strong>
+            </div>
+            <h3 class="ct-blog-header">
+Front row start for Lewis in Abu Dhabi
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="#"><img alt="News Entry" src="https://www.solodev.com/assets/recent-news/news-entry-2.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>February</span><strong>27</strong>
+            </div>
+            <h3 class="ct-blog-header">
+              WebCorpCo Has Been Named to Inc. 5000
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="#"><img alt="News Entry" src="https://www.solodev.com/assets/recent-news/news-entry-3.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>February</span><strong>25</strong>
+            </div>
+            <h3 class="ct-blog-header">
+              7 Crtical Factors when Choosing a CMS
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="#"><img alt="News Entry" src="https://www.solodev.com/assets/recent-news/news-entry-4.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>February</span><strong>23</strong>
+            </div>
+            <h3 class="ct-blog-header">
+              The Best Ways to Leverage Data and Deliver on Your Investment
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="#"><img alt="News Entry" src="https://www.solodev.com/assets/recent-news/news-entry-5.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>February</span><strong>20</strong>
+            </div>
+            <h3 class="ct-blog-header">
+              Latest API Integrations Available through CMS 8
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="ct-blog col-sm-6 col-md-4">
+        <div class="inner">
+          <div class="fauxcrop">
+            <a href="#"><img alt="News Entry" src="https://www.solodev.com/assets/recent-news/news-entry-6.jpg"></a>
+          </div>
+          <div class="ct-blog-content">
+            <div class="ct-blog-date">
+              <span>February</span><strong>16</strong>
+            </div>
+            <h3 class="ct-blog-header">
+              WebCorpCo's Latest Release (CMS 8) Available Today
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-news btn-contests">
+      <a href="#">VIEW ALL NEWS</a>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>Makovitch Tchaptchey-Konda ® 2022 </p>
+ <a href="https://www.instagram.com/mercedesamgf1/?hl=en">Instagram</a>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+</html>

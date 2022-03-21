@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lewis Hamilton</title>
+  <link rel="icon" type="image/x-icon" href="mercedes-8-202855.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  float: center;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+.hero-image {
+  background-image: url("DSCF7488_1024x1024.jpg");
+  background-color: #cccccc;
+  height: 512px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Mercedes AMG Petronas Formula One Team</h1>
+</div>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<h1>Menu</h1>
+	<li><a href="home.html">Home</a></li>
+	<h1>Drivers</h1>
+      <li><a href="vbottas.html">Valterri Bottas</a></li>
+      <li><a href="nrosberg.html">Nico Rosberg</a></li>
+
+	  <h1>Media</h1>
+	  <li><a href="#">News</a></li>	  	  
+	  <li><a href="wallpaper.html">Wallpapers by Wallpaperbat ©</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <aside>
+  <div class="row">
+  <h1>Biography</h1>
+<p>Lewis Hamilton was born on 7 January 1985 in Stevenage, England. At the tender age of eight, Lewis sat in a kart for the first time and was immediately bitten by the racing bug. Mercedes-Benz soon recognised the British youngster's enormous talent, becoming one of his sponsors at the very start of his career.
+
+Not only did Lewis show incredible pace on the track, he also climbed the career ladder at an impressive rate. After he had blown the competition out of the water in every category of karting and won the McLaren Mercedes Champions of the Future series, McLaren Mercedes enrolled him on their Young Driver Programme in 1997. In 2001, he moved up into British Formula Renault, winning the title two years later.
+
+Lewis's winning streak continued unabated in the Formula 3 Euro Series. He was crowned junior champion whilst still in his second year and subsequently progressed to the GP2 Series with ART Grand Prix. Despite his rookie status, Lewis dominated the Championship - taking five victories on his way to the title. This success immediately led to his promotion to the very pinnacle of motor racing - Formula One.
+
+Lewis made his Grand Prix debut with McLaren Mercedes on 18 March 2007 as team-mate to reigning World Champion Fernando Alonso, whilst still only 22 years old. Despite his youth, he remained in contention for the title right up until the season finale in Brazil - challenging top drivers with considerably more experience. The numerous records set by Lewis in his rookie season highlighted his class - including the most race wins, pole positions and points scored in a debut season.
+
+What had already been an extraordinary career reached new heights in 2008, with a first Formula One World Championship crown. At the time of his title victory, Lewis was 23 years, nine months and 26 days old - taking the accolade of youngest ever Formula One World Champion. It was undoubtedly one of the most dramatic title deciders in F1 history, with Lewis securing the Championship on the last lap of the final race in Brazil – after a late overtake for fifth place.
+
+Four years later, after six successful seasons with McLaren Mercedes, Lewis sought a new challenge - joining the works Mercedes team for the 2013 season. Lewis secured his first podium in a Mercedes Formula One car in only his second race with the team, at the Malaysian Grand Prix. A maiden victory followed eight races later in Hungary, helping Lewis to finish the season fourth overall in the Drivers’ standings. </p>
+</div>
+
+  </aside>
+    <h1>Lewis Hamilton</h1>
+    <h1>Portrait</h1>
+	<img src="lhamilton.jpg" alt="Lewis Hamilton Portrait" width="300" height="300">
+	
+<div class="column">
+<p>Nationality:	British</br>
+Date of Birth:	7 January 1985</br>
+Place of Birth:	Stevenage, UK</br>
+Lives:	Monaco</br>
+Height:	1.74m</p>
+
+
+<p>Debut:
+Australia, 18 March 2007</br>
+Best Championship:	World Champion – 2008, 2014, 2015,</br> 2017, 2018, 2019</br>
+First Win:	Canada, 10 June 2007</br>
+Last Win:	Bahrain, 29 November 2020</br>
+Wins:	95</br>
+Podiums:	165</br>
+Pole positions:	98</br>
+Front Row Starts:	158</br>
+Fastest Laps:	53</br>
+Starts:	266</br>
+Points:	3,778</p>
+</div>
+  </article>
+</section>
+<footer>
+  <p>Makovitch Tchaptchey-Konda ® 2022 </p>
+ <a href="https://www.instagram.com/mercedesamgf1/?hl=en">Instagram</a>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
